@@ -1,0 +1,216 @@
+/*导航栏 logo*/
+/*----------------------------------------*/
+/*  1. Theme Default CSS 主要部分通用的
+/*----------------------------------------*/
+* { margin:0; padding:0; border:0;box-sizing: border-box}
+html, body {height:100%;min-width: 1000px;}
+img {max-width:100%;height:auto;vertical-align:top;}
+li{list-style: none}
+em, i {font-style: normal;}
+.floatleft{float: left;!important;}
+.floatright{float: right;!important;}
+.position{position: relative;}
+a { color:#69686c;text-decoration: none;transition: all 0.3s ease 0s;}
+a:hover {text-decoration:none;color:#f10582}
+:focus{ outline:none; }
+.clear{clear:both}
+form { display:inline;}
+.header-top i{ display: inline-block;}
+.ico-dis{/*三角形*/
+    margin-top: 6px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    vertical-align: middle;
+    border-width: 4px;
+    border-color:#999 transparent transparent transparent;
+    border-style: solid dashed dotted dashed;
+}
+/*2.1 Header Top 页眉*/
+.header-top{
+    position: relative;
+    z-index: 21;
+    height: 28px;
+    line-height: 26px;
+    background-color: #f5f5f5;
+    color: #777;
+    font-size: 12px;
+}
+.header-contact{
+    position: relative;
+    width:87px;
+    padding:0 14px;
+    float:left;
+    border:1px solid #f5f5f5;
+}
+.header-contact .ico-dis{
+    border-width: 5px;
+    position: absolute;
+    top:7px;left:60px;
+}
+.icons{background: url(../images/header-top/header.png) no-repeat}
+.top-nav-tool{float: right;margin-bottom: 0;}
+.header-contact:hover a{color:#f10582;}
+.header-province a{color:#666}
+.wp-user:hover .header-province a{color:#f10582;}
+.wp-user:hover .ico-dis{border-color:transparent transparent #f10582 transparent;margin-top:-5px;}
+.wp-user:hover .header-province .iphone{background-position:-124px -150px;}
+.top-nav-tool li{float: left}
+.wp-user{padding-right:15px;padding-left:13px;position: relative;margin-left:10px;margin-right:10px;}
+.wp-user:after{
+    position: absolute;
+    top: 6px;
+    right: -5px;
+    width: 16px;
+    height: 16px;
+    content: '';
+    background: url(../images/header-top/header.png) no-repeat -134px 0;
+}
+/*请登录*/
+#login{border:1px solid #f5f5f5;}
+#login:hover{border-color:#cdcdcd;background: white;border-bottom-color:white }
+#login:hover .my-login{display: block;}
+.my-login{position: absolute;top:26px;left:-1px;background: white;border: 1px solid #cdcdcd;width:280px;padding-left:10px;
+    padding-top:20px;border-top:0 ;display: none;z-index:5;
+}
+.my-login:before{content: '';position: absolute;top:0;right:0;width:214px;border-top: 1px solid #cdcdcd;}
+.my-login img,.login{display: inline-block}
+.my-login img{width:40px;height:40px;border-radius:50%;}
+.login{text-indent:5px;border-bottom:1px dotted #cdcdcd;margin-left: 8px;width:200px;}
+.login-item{display: inline-block;width:100px;}
+.my-login p:nth-child(2){padding-left: 10px;}
+/*收藏*/
+.collec{border:1px solid #f5f5f5;}
+.collec:hover{border:1px solid #cdcdcd;background:white;}
+.collec:hover .wp-collec{display: block}
+.wp-collec{display:none;position:absolute;background: white;border:1px solid #cdcdcd;left:-1px;border-top:0;
+    padding:0 12px;width:120px;z-index:20;
+}
+.wp-collec p{margin-bottom:0;}
+.wp-collec::before{content: '';position: absolute;top:0;right:0;width:31px;border-top:1px solid #cdcdcd;}
+/*会员俱乐部*/
+.club{border:1px solid #f5f5f5;}
+.club:hover{border:1px solid #cdcdcd;background:white;}
+.club:hover .wp-club{display: block}
+.wp-club{display:none;position:absolute;background: white;border:1px solid #cdcdcd;left:-1px;border-top:0;
+    padding:0 12px;width:101px}
+.wp-club p{margin-bottom:0;}
+/*客户服务*/
+.serive{border:1px solid #f5f5f5;}
+.serive:hover{border:1px solid #cdcdcd;background:white;}
+.serive:hover .wp-serive{display: block}
+.wp-serive{display:none;position:absolute;background: white;border:1px solid #cdcdcd;left:-1px;border-top:0;
+    padding:0 7px;width:95px
+}
+.wp-serive p{margin-bottom:0;text-indent: 6px;}
+/*二维码区域*/
+.erweima-fn{border:1px solid #f5f5f5;}
+.erweima-fn:hover{border:1px solid #cdcdcd;background:white;}
+.erweima-fn:hover .erweima{display: block}
+.erweima{
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: -1px;
+    width: 161px;
+    padding: 10px 10px 0;
+    border: 1px solid #cdcdcd;
+    border-top:0;
+    background-color: #fff;
+}
+.erweima:before{
+    content:'';width:80px;border-top:1px solid #cdcdcd;position:absolute ;top:0;left:0;
+}
+.erweima p{text-align: center;margin:5px 0 5px;font-size:14px;font-weight: 500}
+.iphone{
+    position: relative;
+    top:4px;
+    width:15px;height:15px;
+    background-position: -99px -150px;
+}
+/*关于我们*/
+#top-nav-more{border:1px solid #f5f5f5;}
+#top-nav-more:hover{border:1px solid #cdcdcd;background:white;}
+#top-nav-more:hover .about{display: block}
+.about{display: none;position: absolute;top:26px;right:-1px;border: 1px solid #cdcdcd;width:300px;background: white;
+    padding: 12px 12px 0;border-top: 0;
+}
+.about:before{content: '';position: absolute;top:0;left:0;width:235px;border-top: 1px solid #cdcdcd;}
+.about p a{margin-right: 10px;}
+.about h5{color: #333;font-weight: 700;}
+.underline{border-bottom: 1px dotted #ccc;}
+/*选中地区*/
+.header-contact:hover{background:white;border-color:#ccc;border-bottom-color:#ffffff;}
+.header-contact:hover .header-area-box{display: block;}
+.header-contact:hover .ico-dis{border-color:transparent transparent #f10582 transparent;top:0px;}
+.header-area-box:before{content: "";border-top:1px solid #ccc;width:208px;position: absolute;top:0px;right:0px;}
+.header-area-box{display:none;position: absolute;top:26px;left:-1px;padding:10px;border:1px solid #ccc;
+    width:295px;height:auto;background: white;border-top:0;
+}
+.header-area-box h4{border-bottom:1px dotted #000000;padding-bottom: 5px;}
+.header-area-box .area{display: inline-block;margin-left:5px;padding:2px 5px;line-height:14px;cursor:pointer;}
+/*2.2 Header Main logo部分*/
+.header-content .logo img{height:100px}
+.header-main-img{margin-right:150px;}
+.header-main-img li{float: left;cursor: pointer;}
+.header-main-img li img{height:100px}
+/*购物袋*/
+.shopping{position: absolute;top:20px;right:0px;font-size:12px;cursor: pointer;width:130px;padding: 20px;text-align: right;
+    border: 1px solid white;
+}
+.shopping-car{
+    width:24px;height:24px;background-position: 3px -57px;position: absolute;top:12px;left:20px;
+}
+.shopping-zero{position: absolute;top:10px;left:30px;width:15px;height:15px;background: #f10582;color:white;
+    border-radius: 5px;text-align: center;line-height: 15px;z-index:10;
+}
+.shopping-bag{display: none;position: absolute;top:57px;right:-1px;border:1px solid #cdcdcd;border-top:0;background: white;
+    width:300px;padding:30px 40px;z-index:100;
+}
+.shopping-bag a{color: #f10582}
+.shopping-bag:before{content: '';position: absolute;top:0;left:0;width:170px;border-top: 1px solid #cdcdcd;}
+.shopping:hover{border: 1px solid #cdcdcd;}
+.shopping:hover .shopping-bag{display: block;}
+/*Header nav 头部导航*/
+.main-nav{background: #f10582;width:100%;}
+.main-nav-scroll{position:fixed;top:0;z-index:1000;background: #f10582;width:100%;}
+.nav > li{font-weight: 700;font-size:16px}
+.nav > li >a{color:white;padding:10px 20px;}
+.nav-checked{background-color:#bd1067;cursor: default;}
+.nav > li:hover a{background-color:#DB0A76}
+.nav > li:hover a.nav-checked{background-color:#bd1067;}
+.nav .ico-dis{
+    border-width: 5px;
+    position: relative;
+    top:10px;left: 3px;
+    border-color:white transparent transparent transparent;
+}
+.nav .hot{padding:10px 30px;}
+.nav .hot img{position: absolute;top:4px;left:4px}
+/* 更多的内容图片   */
+#more:hover .ico-dis{border-color:transparent transparent white transparent;top:-10px;}
+#more-item{
+    width: 590px;
+    max-height: 335px;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,.1);
+    padding: 22px 10px 11px 22px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;z-index:10;
+    top: 40px;display:none;
+    overflow: hidden;
+    font-size: 0;
+}
+.more-img-item img{z-index:10;}
+.more-img-item .brand-text{position: absolute;bottom:10px;left:40px;width:100px;height:20px;-webkit-transition:all 0.3s linear;}
+.more-img-item .brand-text p{color:white;font-size: 16px;text-align: center;}
+.more-img-item:before{content:"";width:170px;height:60px;background:-webkit-linear-gradient(top,rgba(255,255,255,0),rgba(0,0,0,0.8));position: absolute
+;bottom: 0;left:0px;-webkit-transition:all 0.3s linear;}
+.more-img-item:hover:before{height:96px;}
+.more-img-item:hover .brand-text{bottom:36px;}
+.more-img-item{ position: relative; z-index: 1; display: inline-block; margin: 0 16px 16px 0;width: 170px;cursor:pointer;
+    height: 96px;border-radius: 4px;vertical-align: top;overflow: hidden;
+}
+/*预告*/
+.advance {padding-left:20px;}
+.advan{position: absolute;top:4px;left:6px;}

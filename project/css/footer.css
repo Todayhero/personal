@@ -1,0 +1,112 @@
+/*页面底部 footer*/
+footer{
+    width:100%;
+    border-top:1px solid #ebebeb;
+    background:#fcfcfc;
+    padding-top:20px;
+    margin-top:20px;
+}
+.footer-inner{width:960px; margin: 0 auto;}
+.footer-top{width:100%;height:126px; background:url("../images/footer/footer__iconsv.gif") no-repeat;}
+.footer-inner #ul-list{
+    width:100%;
+    height:146px;
+    margin-bottom:30px;
+}
+.footer-inner #ul-list>li{
+    width:160px;
+    height:146px;
+    float:left;
+    border-right:1px solid #ccc;
+}
+.footer-inner #ul-list>li{
+    font-size: 12px;
+    padding-left:15px;
+}
+.footer-inner #ul-list>li>p{
+    height:20px;
+    color:#333;
+}
+.footer-inner #ul-list>li>ul>li{
+    list-style: square;
+    padding:2px 0px;
+    margin-left:15px;
+    color:#999;
+}
+.footer-inner #ul-list>li>ul>li:hover a{
+    color: #d7237e;
+}
+#ul-list-last{text-align: center;}
+#footer-info-link{
+    width:960px;
+    background:#d7237e;
+    height:30px;
+    padding:5px 100px;
+}
+#footer-info-link a{color: white;font-size: 12px;}
+#footer-info-link a:hover{color: #999;}
+#footer-dibu p{
+    width:100%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color:#999;
+}
+#footer-dibu p a:hover{color:#d7237e;}
+#police{display: inline-block;}
+#police i{
+    background:url("../images/footer/police_icon.png") no-repeat;
+    display:block;
+    width:20px;
+    height:20px;
+    margin-top: 2px;
+    float:left;
+}
+#footer-img{
+    width:100%;
+    height:40px;
+    padding:0px 149px;
+    margin-bottom:10px;
+}
+#footer-img>a{
+    display: block;
+    float:left;
+    margin-right:10px;
+}
+.footer-img{
+    background:green url("../images/footer/footer.png") no-repeat;
+}
+.footer-img1{
+    width:105px;
+    height:40px;
+}
+.footer-img2{
+    background-position:0px -50px;
+    width:89px;
+    height:40px;
+}
+.footer-img3{
+    background-position:0px -100px;
+    width:90px;
+    height:40px;
+}
+.footer-img4{
+    background-position:0px -150px;
+    width:98px;
+    height:40px;
+}
+.footer-img5{
+    background-position:0px -200px;
+    width:66px;
+    height:40px;
+}
+.footer-img6{
+    background-position:0px -250px;
+    width:70px;
+    height:40px;
+}
+.footer-img7{
+    background-position:0px -300px;
+    width:74px;
+    height:40px;
+}

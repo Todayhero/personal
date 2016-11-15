@@ -1,0 +1,122 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Mozar - Fashion eCOMMERCE Bootstrap Template
+    Description: This is html5 template
+    Author: BootExperts
+    Version: 1.0
+-----------------------------------------------------------------------------------*/
+/*banner*/
+.banner-bg{background: url(../images/banner/banner-bg.jpg) no-repeat 44% 0;width:100%;height:500px;margin: 0 auto 20px;}
+.banner{position: absolute;top:42px;left:3%;width:1147px;height:458px;border:1px solid #cccccc}
+#banner-item{padding: 10px;overflow: hidden;position: absolute;top:0px;left:0;width:1136px;height:425px}
+#banner-item li{position: absolute;top:10px;left:10px;width:1128px;height:405px}
+.banner-btn-box{position:absolute;width:100%;height:40px;bottom: 0px;left:0;padding:5px 120px;
+}
+.banner-btn-box .banner-btn{text-align: center;}
+ul.banner-btn li{cursor: pointer;}
+.banner-btn-line{width:210px;border-top:3px solid #f10582;position: absolute;bottom:0px;left:132px;}
+/*banner 结束*/
+/*竖直导航边*/
+.nav-list{position: absolute;width:78px;height:446px;border: 1px solid #cdcdcd;border-radius: 5px;top:116px;left:0px;
+    padding:8px;font-size: 12px;z-index:1000;background: white;margin-left:-100px;
+}
+.nav-list-bar{border-bottom:1px solid #cccccc;text-align: center;height:36px;cursor: pointer;line-height: 20px;}
+.nav-list-bar a{display: block;padding:8px 5px;}
+.nav-list-bar-checked{background:#f10582;border-radius: 5px;font-weight:700;}
+.nav-list-bar-checked a{color:white;}
+.nav-list-bar:last-child{border-bottom:0;}
+/*热卖框架*/
+.today-new{padding-top:50px;}
+.hotSale-item{
+    float: left;text-align: center; position: relative; overflow: hidden; margin-right: 20px;margin-bottom: 20px;background: white;
+    width: 550px;
+    height: 350px;
+}
+.hotSale-icon-img{position: absolute;bottom: 40px;left:50%;background:rgba(255,255,255,0.9);border-radius: 5px;width:320px;
+    margin-left:-160px;height:86px;
+}
+/*热卖商品 hover*/
+.hotSale-hidden{position:absolute;top:20px;left:25px;width:500px;height:300px;background:white;border-radius: 5px;padding:5px;
+    cursor: pointer;display:none;
+}
+.hotSale-hidden p a{display:inline-block;width:32%;}
+.hidden-line{border-bottom:1px dotted #333; padding-bottom: 30px;}
+.hotSale-hidden-line p span{display:inline-block;}
+.hotSale-hidden-icon{vertical-align: middle;}
+.hotSale-hidden-brand{border-radius: 12px;border:1px solid #cdcdcd;margin-left:20px;width:20%;}
+.hotSale-hidden-show{border:1px solid #333;padding: 5px 10px;margin-left: 60px;border-radius: 5px;width:25%;}
+.hotSale-hidden-brand:hover{color:white;background:#f10582;}
+.hotSale-hidden-show:hover{color:white;background: #333;}
+.hotSale-item:hover .hotSale-item-bg{opacity: 0.8}
+.hotSale-hidden-line .hidden-line a:hover img{opacity: 0.8}
+.hotSale-item:hover .hotSale-hidden{display:block;}
+.vip-brand{display:inline-block;width:16px;height:16px;background:url(../images/nav-img/sprite.png) no-repeat -99px -188px;position: relative;top:3px;left:-5px;}
+/*品牌分类*/
+.grounp{padding-top:50px;}
+.grounp-more{position:absolute;bottom:0px;right:16px;}
+.grounp-left{float: left;}
+.grounp-left1{float: left;width:417px;}
+.grounp-item{padding-top:30px;cursor: pointer;text-align: center;float: left;border-right:1px solid #ccc;border-bottom:1px solid #ccc;padding-bottom: 7px; }
+.grounp-item-em{color:#cccccc}
+.grounp-item-line{border:2px solid #aca1dd;width:35px;margin-left: 103px;margin-bottom: 10px;}
+.grounp-item-img{width:240px;}
+.grounp-top-line{border-top:1px solid #333;height:500px;}
+.grounp-hot{position:absolute;background:url("../images/group/mark.png") no-repeat;width:34px;height:34px;top:0px;right:10px;background-color:#aca1dd;
+    line-height: 24px;color:white;
+}
+/*分页*/
+.grounp-page{padding-top:20px;}
+.grounp-page-item{padding-right:10px;padding-bottom:20px;cursor:pointer;}
+.grounp-page-item-img{width:560px}
+.info-img{
+    position:absolute;bottom:0px;background:rgba(0,0,0,0.68);height:30px;line-height: 30px;color:white;padding:0 100px 0 25px;width:100%;
+   font-size: 12px;
+}
+.info-img:after{background: url("../images/group/index_imgs.png") no-repeat;
+    position: absolute;left: 10px;top: 11px;width: 8px; height: 9px;content: '';
+}
+.grounp-page-brand{position:absolute;right:10px;bottom:3px;background:#ffffff;width:100px;border-radius: 14px;height:24px;line-height: 20px;
+color:#333;display:none;text-align: center;}
+.grounp-page-brand:hover{background: #f10582;color:white;}
+.grounp-page-item-img:hover .grounp-page-brand{display:block;}
+.grounp-page-item-img:hover img{opacity: 0.8}
+.info-pushes{font-size: 28px;color:#f10582;font-weight:700;margin-left:20px;}
+.grounp-footer-brand{width:100%;border-top:1px solid #cccccc;height:44px;margin-bottom: 30px;}
+.grounp-footer{position: absolute;bottom: 0px;left:50%;margin-left:-162px;width:324px;height:44px;background: #f10582;line-height: 44px;
+    border-radius:0 0 5px 5px;color:white;text-align: center;font-size:18px;
+}
+.grounp-footer:hover{color:white;opacity:0.8}
+.grounp-footer:focus{color:white;text-decoration: none}
+/*运动 饰品 美妆*/
+.sports .grounp-item{width:270px;}
+.sports .grounp-left1{width:425px;}
+.sports .grounp-item .grounp-item-img{width:269px;}
+.grounp-more-brand{position:absolute;top:0px;right:0px;width:176px;height:496px;border-right:1px solid #ccc;border-bottom:1px solid #ccc;text-align: center;}
+.grounp-more-brand-title{height:70px;line-height: 70px;font-size: 16px;}
+.grounp-more-brand-list{padding:0 8px;}
+.grounp-brand-list-btn{display:inline-block;width:18px;height:18px;background: url("../images/nav-img/sprite.png") no-repeat;background-size: 2000%;
+}
+.last-time{float:right;margin-top: 14px;vertical-align: top}
+.last-time-icon{display: inline-block;width:16px;height:16px;background: url("../images/group/index_imgs.png") no-repeat -50px 0;margin-right:5px;position: relative;
+    top: 3px;}
+.list-btn-left{background-position: -68px -320px;-webkit-transform:rotate(-90deg);}
+.list-btn-right{background-position: -44px -320px;-webkit-transform:rotate(90deg);}
+/*明天预告*/
+.tomorrow{padding-top:50px;}
+.tomorrow-best{position:absolute;top:50%;left:50%;margin-left: -70px;margin-top:-20px;width:140px;height:40px;background:#080808;text-align: center;
+    line-height: 40px;text-indent:5px;opacity: 0.8;color:white;
+}
+.tomorrow-column{cursor:pointer;margin-right:20px;margin-bottom: 20px;width:270px;}
+.brand-info{text-indent: 8px;font-size: 12px;padding:2px;}
+.form-box{visibility:hidden;border:1px solid #999;border-radius: 3px;text-indent:5px;font-size:12px;width:210px;margin-left:10px;}
+.brand-info-submit{background: white;color:#31b0d5}
+.tip-line{position:absolute;border-left: 1px solid #cccccc;height:12px;top:2px;left:140px;}
+.tomorrow-column:hover .grounp-page-brand{display:block;}
+.tomorrow-column:hover .tomorrow-column1 img{opacity: 0.8}
+.tomorrow-column:hover .tomorrow-column1 .tomorrow-best{opacity: 0.6}
+.tomorrow-column:hover .form-box{visibility:visible;}
+.tomorrow-column-brand{margin: 30px 0px;height:70px;}
+.tomorrow-column-footer{position: absolute;bottom: 0px;left:50%;margin-left:-162px;width:324px;height:44px;background: #f10582;line-height: 44px;
+    color:white;text-align: center;font-size:18px;}
+.tomorrow-column-footer:hover{color:white;opacity:0.8}
+.margin-right-zero{margin-right: 0;}

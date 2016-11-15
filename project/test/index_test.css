@@ -1,0 +1,6 @@
+*{margin:0;padding:0;}
+li{list-style: none}
+a{text-decoration: none}
+.banner{position: relative;}
+#banner-item{padding: 10px;overflow: hidden;position: absolute;top:0;left:50%;width:1000px;height:400px;margin-left: -500px;}
+#banner-item li{position: absolute;top:10px;left:10px;width:1000px;height:400px;cursor: pointer}

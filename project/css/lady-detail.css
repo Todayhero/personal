@@ -1,0 +1,125 @@
+/*产品图片框架*/
+.M-class{ padding: 11px 0;font-size: 12px;}
+.M-pic {width: 420px;float: left;position: relative;}
+.pic-sliderwrap{
+    width: 420px;
+    height: 490px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.pic-slider{
+    position: relative;
+    width: 420px;
+    height: 79px;
+    margin-right: 1px;
+    overflow: hidden;
+}
+.pic-slider-items{
+    margin: 0 7px 0 0;
+    float: left;width: 71px; height: 73px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #f5f5f5;
+}
+.pic-slider .pic-slider-items img{width:98%}
+.pic-slider-items:hover{border-color: #f10582;}
+.product-text{height:32px;}
+.other-infoCoding{
+    color: #999;
+    line-height: 32px;
+    display: inline-block;
+    font-size: 12px;
+}
+.onssell-collect{
+    line-height: 16px;
+    cursor: pointer;
+    width: 74px;
+    padding: 1px 0 1px 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 18px;
+}
+.star-icon {
+    background-image: url(//shop.vipstatic.com/img/te/sprites.png?520f3b1b);
+    background-position: -381px -124px;
+    width: 16px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.collect-tips {
+    font-size: 12px;color: #999;
+}
+.collect-tips:hover{color:#f10582;}
+/*分享按钮*/
+.car-share-box{text-align: right;position: absolute;right:40px;bottom:0;}
+.share-tit-wrap{
+    padding: 0 9px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 0;
+    display: inline-block;
+    background: #fafafa;
+    border: solid 1px #c2c2c2;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+    transition: border .3s;
+}
+.tit-icon{
+    background-position: -16px -19px;
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    margin-right: 4px;
+background: url(../images/group/woman/product/share-sef3db69c23.png) no-repeat;
+}
+.share-txt{ font-size: 12px;height: 22px;line-height: 22px;}
+/*倒三角形*/
+.tit-arrow{ border: solid 3px transparent; border-top-color: #999;margin-left: 2px;display: inline-block;}
+.share-tit-hidden{
+    position: absolute;
+    border: solid 1px #c2c2c2;
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    background: #fff;
+    padding: 5px 9px;
+    top: 21px;display: none;
+    left: 0;width: 112px;
+}
+.share_gap{
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    outline: 0;
+    text-decoration: none;
+    background: url(../images/group/woman/product/share_icon.png) no-repeat;
+    cursor: pointer;
+    vertical-align: top;
+    float: none;
+    width: 20px;
+    line-height: 20px;
+    height: 20px;
+}
+.vips_qzone{background-position: -30px -40px;}
+.vips_qq{background-position: -240px -40px;}
+.vips_weixin{background-position: -210px -40px;}
+.vips_tsina{background-position: 0 -40px;}
+.car-share-box:hover .share-tit-hidden{display: block}
+.car-share-box:hover .share-tit-wrap{border-bottom-color: #fff}
+/*按钮结束*/
+.M-productInfo{float:left;position: relative ;width:720px;}
+.pro-list-time{position: absolute;top:9px;right:0;background:rgba(0,0,0,0.8);color:white;padding-left:10px;
+    border-radius:10px 0 0 10px;font-size:12px;
+}
+.pro-list-time-count{display: inline-block;width:16px;height:16px;background:url("../images/group/detail_millis.gif") no-repeat;
+    position:relative;top:6px;
+}
+.productInfo-price{height:96px;background:url("../images/group/woman/product/detail_price_bg.png")}
+
+
+
+

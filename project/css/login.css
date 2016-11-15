@@ -1,0 +1,113 @@
+/*登陆界面*/
+*{margin:0;padding:0;}
+.clear{clear:both}
+a{text-decoration: none;}
+body{background-color: #fdfbfe;height:100%;}
+.position{position:relative;}
+.g-wrap{
+    width: 1000px;
+    margin: 40px auto;
+}
+header{
+    height:53px;
+    padding-bottom: 44px;
+}
+.u-logo{
+    float: left;
+    background: url("../images/login/sprite.png") no-repeat 0 0;
+    width: 313px;
+    height: 53px;
+}
+.u-promise{
+    float: right;
+    margin-top: 12.5px;
+    background: url("../images/login/sprite.png") no-repeat -317px 0;
+    width: 445px;
+    height: 28px;
+}
+/*注册部分*/
+.g-content{
+    height:580px;
+    background: url("../images/login/content-bg.jpg") no-repeat;
+}
+.g-content-func{
+    float: right;;
+    width: 274px;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+.ui-input {
+    height: 18px;
+    line-height: 18px;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    outline: 0;
+}
+.u-form-top-tip{font-size:14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+/*用户名密码*/
+.u-form-login{
+    width:274px;height:246px;
+}
+.u-form-login-hidden{display: none;}
+.u-form-item{position: relative;margin-bottom: 25px;}
+.u-form-item .ui-input{width: 250px;padding: 8px 10px;}
+.u-form-info{
+    height: 25px;
+    line-height: 25px;
+    position: absolute;font-size:12px;
+    color: #f10582;
+}
+.u-form-info-color1{color: #f10582}
+.u-form-info-color2{color: green}
+/*提交按钮*/
+.u-form-submit{margin-bottom: 15px;}
+.u-form-btn{
+    width: 140px;
+    height: 40px;font-weight: 600;
+    font-size: 16px; background: #f10180;border: 1px solid #f10180;
+    line-height: 40px;cursor: pointer;    border-radius: 3px;color: #fff;
+}
+/*注册页面 邮箱登录*/
+.u-form-submit-post{position:absolute;font-size: 12px;bottom:0;right:0;color:#1d94d1;cursor: pointer}
+/*短信验证码*/
+.u-form-item-code .ui-input{width: 125px;padding: 8px 10px;}
+.u-mobile-verifycode{display:inline-block;padding: 8px 16px;border-radius: 3px;background: #ccc;color:#666;margin-left:6px;cursor: not-allowed;}
+.cursor{cursor:pointer}
+/*服务条款*/
+.register-service{color:red}
+
+
+
+/*免登录*/
+.u-other-func{font-size: 12px;margin-bottom: 50px;}
+.u-checkbox-normal{vertical-align:middle;width:19px;height:16px;}
+.u-cannot-login{float: right;}
+.u-cannot-login a:first-child{color:#666666;}
+.u-cannot-login a:first-child:hover{color:#f10582;}
+.u-cannot-login a:last-child{color:#f10582;}
+/*第三方网站登录*/
+.u-third-login{font-size:12px;color: #777;}
+.title{margin-bottom: 5px;}
+.u-third-weibo,.u-third-qq,.u-third-alipay,.u-third-wechat{
+    float: left;margin-right: 8px;
+    background-image: url("../images/login/sprite.png");
+    background-repeat:no-repeat ;
+    width: 24px;
+    height: 24px;
+}
+.u-third-weibo{background-position:-291px -57px }
+.u-third-qq{background-position: -235px -57px;}
+.u-third-alipay{background-position: -179px -57px}
+.u-third-wechat{background-position: -207px -57px;}
+/*底部*/
+.u-copyright{
+    color: #767074;
+    text-align: center;font-size: 14px;
+}
